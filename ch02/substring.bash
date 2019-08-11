@@ -11,6 +11,7 @@ echo "first three characters ${STR:0:3}"
 echo "Eleventh to fifteenth characters: ${STR:10:6}"
 echo "Nineteenth character onwards: ${STR: 18}"
 echo "The last character is: ${STR: -1}"
+echo "Lenght of the string is: ${#STR}"
 
 ##String comparison examples##
 STR2="abc"
